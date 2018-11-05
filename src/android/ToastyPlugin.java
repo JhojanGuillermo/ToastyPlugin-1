@@ -35,7 +35,7 @@ public class ToastyPlugin extends CordovaPlugin {
         				.decode(filedata)
         				.toGif()
         				.asByteArray();*/
-        String encode = new String(Base64.getEncoder().encode(gifBytes));
+        String encode = new String(Base64.getEncoder().encode(filedata));
         message = "el mensaje es :"+encode;
         
         
