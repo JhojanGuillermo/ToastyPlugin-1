@@ -8,7 +8,7 @@ import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.jnbis.api.Jnibs;
+import org.jnbis.api.Jnbis;
 import java.util.Base64;
 
 
